@@ -1,0 +1,68 @@
+Column,Survey variable,Role,Survey wording
+firm_id,uniqid,Identifier,UNIQUE RESPONDENT ID (CASEID BY IPSOS COUNTRY CODE)
+pathway,n1a,Outcome (research questions 1 and 2),N1a Does your company use renewable energy sources?
+pathway_code,n1a,Outcome (research questions 1 and 2),N1a Does your company use renewable energy sources?
+onsite_share,n1b,Descriptive only (on-site firms),"N1b What share of energy consumed in your company is generated on-site (e.g. via solar panels, wind power)?"
+plans_renewable,q2.3,Outcome (research question 3),"Q2.3 Over the next two years, what are the additional resource efficiency actions that your company is planning to implement?"
+country,isocntry,Predictor: set A (structural),COUNTRY CODE - ISO 3166
+region,isocntry (grouped),Predictor: set A (structural),COUNTRY CODE - ISO 3166
+sector,nace_b,Predictor: set A (structural),SECTOR OF ACTIVITY (NACE) - SECTIONS GROUPED
+nace_section,nace_a,Predictor: set A (structural),SECTOR OF ACTIVITY (NACE) - SECTIONS
+size,scr10,Predictor: set A (structural),SCR10 How many employees (full-time equivalent) does your company currently have?
+employees,scr10a,Predictor: set A (structural),SCR10a How many employees (in full-time equivalents) does your company currently have?
+firm_age_years,scr12a,Predictor: set A (structural),SCR12a In what year was your company established?
+age_band,scr12,Predictor: set A (structural),SCR12 When was your company established?
+turnover_band,scr14,Predictor: set A (structural),SCR14 What was your company's total turnover in 2023?
+turnover_unknown,scr14,Predictor: set A (structural),SCR14 What was your company's total turnover in 2023?
+turnover_trend,scr13a,Predictor: set A (structural),"SCR13a Over the past three years, has your company's annual turnover increased, decreased or remained unchanged?"
+employment_trend,scr11a,Predictor: set A (structural),"SCR11a Over the past three years, has your company's total number of employees increase, decreased or remained about the same?"
+hiring_difficulty,scr11b,Predictor: set A (structural),"SCR11b Over the past 24 months, how difficult was it for your company to find and hire staff with the right skills?"
+sells,scr16,Predictor: set A (structural),SCR16 Does your company sell…?
+act_save_water,q1.1,Predictor: set B (behavioural),Q1.1 What actions is your company undertaking to be more resource efficient? [Saving water]
+act_save_energy,q1.2,Predictor: set B (behavioural),Q1.2 What actions is your company undertaking to be more resource efficient? [Saving energy]
+act_save_materials,q1.4,Predictor: set B (behavioural),Q1.4 What actions is your company undertaking to be more resource efficient? [Saving materials]
+act_greener_suppliers,q1.5,Predictor: set B (behavioural),Q1.5 What actions is your company undertaking to be more resource efficient? [Switching to greener suppliers of materials]
+act_minimise_waste,q1.6,Predictor: set B (behavioural),Q1.6 What actions is your company undertaking to be more resource efficient? [Minimising waste]
+act_sell_waste,q1.7,Predictor: set B (behavioural),Q1.7 What actions is your company undertaking to be more resource efficient? [Selling your residues and waste to another company]
+act_recycle,q1.8,Predictor: set B (behavioural),"Q1.8 What actions is your company undertaking to be more resource efficient? [Recycling, by reusing material or waste within the company]"
+act_design_for_repair,q1.9,Predictor: set B (behavioural),"Q1.9 What actions is your company undertaking to be more resource efficient? [Designing products that are easier to maintain, repair or reuse]"
+n_other_actions,q1.1-q1.9 except q1.3 (count),Predictor: set B (behavioural),Q1.1 What actions is your company undertaking to be more resource efficient? [Saving water]
+asked_followups,q4 (asked or not),Predictor: set B (behavioural),"Q4 Over the past two years, how much have you invested on average per year to be more resource efficient?"
+investment,q4,Predictor: set B (behavioural),"Q4 Over the past two years, how much have you invested on average per year to be more resource efficient?"
+sup_own_finance,q5.1,Predictor: set B (behavioural),Q5.1 Which type of support does your company rely on in its efforts to be more resource efficient? [Its own financial resources]
+sup_own_expertise,q5.2,Predictor: set B (behavioural),Q5.2 Which type of support does your company rely on in its efforts to be more resource efficient? [Its own technical expertise]
+sup_external,q5.3,Predictor: set B (behavioural),Q5.3 Which type of support does your company rely on in its efforts to be more resource efficient? [External support]
+ext_public_funding,q6.1,Predictor: set B (behavioural),"Q6.1 More precisely, which type of external support is it? [Public funding such as grants, guarantees or loans]"
+ext_private_funding,q6.2,Predictor: set B (behavioural),"Q6.2 More precisely, which type of external support is it? [Private funding from a bank, an investment company or venture capital fund]"
+ext_friends_family,q6.3,Predictor: set B (behavioural),"Q6.3 More precisely, which type of external support is it? [Private funding from friends and relatives]"
+ext_advice_public,q6.4,Predictor: set B (behavioural),"Q6.4 More precisely, which type of external support is it? [Advice or other non-financial assistance from public administration]"
+ext_advice_consultants,q6.5,Predictor: set B (behavioural),"Q6.5 More precisely, which type of external support is it? [Advice or other non-financial assistance from private consulting and audit companies]"
+ext_advice_associations,q6.6,Predictor: set B (behavioural),"Q6.6 More precisely, which type of external support is it? [Advice or other non-financial assistance from business associations and clusters]"
+ext_advice_supply_chain,q6.7,Predictor: set B (behavioural),"Q6.7 More precisely, which type of external support is it? [Advice or other non-financial assistance from supply chain partners]"
+bar_admin_complexity,q7.1,Predictor: set B (behavioural),Q7.1 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Complexity of administrative or legal procedures]
+bar_adapting_legislation,q7.2,Predictor: set B (behavioural),Q7.2 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Difficulty to adapt environmental legislation to your company]
+bar_outdated_tech_rules,q7.3,Predictor: set B (behavioural),Q7.3 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Technical requirements of the legislation not being up to date]
+bar_choosing_actions,q7.4,Predictor: set B (behavioural),Q7.4 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Difficulty in choosing the right resource efficiency actions for your company]
+bar_cost,q7.5,Predictor: set B (behavioural),Q7.5 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Cost of environmental actions]
+bar_lack_expertise,q7.6,Predictor: set B (behavioural),Q7.6 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Lack of specific environmental expertise]
+bar_lack_supply,q7.7,Predictor: set B (behavioural),"Q7.7 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Lack of supply of required materials, parts, products or services]"
+bar_lack_demand,q7.8,Predictor: set B (behavioural),Q7.8 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Lack of demand for resource efficient products or services]
+bar_labelling_complexity,q7.9,Predictor: set B (behavioural),Q7.9 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Complexity associated with environmental labelling and certification]
+bar_reporting_requirements,q7.10,Predictor: set B (behavioural),Q7.10 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Complex environmental reporting requirements]
+bar_none,q7.12,Predictor: set B (behavioural),Q7.12 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [None (DO NOT READ OUT)]
+help_self_assessment_tool,q8.1,Predictor: set B (behavioural),Q8.1 Which of the following would help your company the most to be more resource efficient? [A tool to self-assess how resource efficient your company is with respect to other companies]
+help_consultancy,q8.2,Predictor: set B (behavioural),Q8.2 Which of the following would help your company the most to be more resource efficient? [Consultancy on how to improve resource efficiency in your company]
+help_grants,q8.3,Predictor: set B (behavioural),Q8.3 Which of the following would help your company the most to be more resource efficient? [Grants or subsidies]
+help_funding_advice,q8.4,Predictor: set B (behavioural),Q8.4 Which of the following would help your company the most to be more resource efficient? [Advice on funding possibilities and financial planning for resource efficiency investments]
+help_tech_demonstration,q8.5,Predictor: set B (behavioural),Q8.5 Which of the following would help your company the most to be more resource efficient? [Demonstration of new technologies or processes to improve resource efficiency]
+help_case_studies,q8.6,Predictor: set B (behavioural),Q8.6 Which of the following would help your company the most to be more resource efficient? [Database with case studies that show the benefits of resource efficiency for companies]
+help_cross_sector_cooperation,q8.7,Predictor: set B (behavioural),Q8.7 Which of the following would help your company the most to be more resource efficient? [Better cooperation between companies across sectors so that new processes to re-use waste and by-products can be ...]
+help_clearer_rules,q8.8,Predictor: set B (behavioural),Q8.8 Which of the following would help your company the most to be more resource efficient? [Clearer rules on the use of secondary raw materials]
+n_barriers,q7.1-q7.10 (count),Predictor: set B (behavioural),Q7.1 Did your company encounter any of the following difficulties when trying to set up resource efficiency actions? [Complexity of administrative or legal procedures]
+climate_strategy,q14,Predictor: set B (behavioural),Q14 Does your company have a concrete strategy in place to reduce your carbon footprint and become climate neutral or negative? [Yes]
+green_products,q9,Predictor: set B (behavioural),Q9 Does your company offer green products or services?
+green_jobs,dx5r,Predictor: set B (behavioural),"DX5r In your company, how many of your full time employees, including yourself, work in green jobs some or all of the time?"
+recycled_materials,n2,Predictor: set B (behavioural),"N2 Does your company use recycled materials in your products? If yes, what is the share of recycled materials in your products/ production?"
+lifespan_policy,n3,Predictor: set B (behavioural),"N3 Does your company have an explicit policy to extend the life span of your products (e.g. choosing durable materials, dedicated repair services for customers etc.)?"
+weight_eu27,w87_sme,Survey weight,WEIGHT EURO-28-UK - SME
+weight_country,w1_sme,Survey weight,WEIGHT RESULT FROM TARGET (POST-STRATIFICATION WEIGHT) - SME

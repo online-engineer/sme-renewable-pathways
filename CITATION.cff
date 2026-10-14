@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Buying or Generating? Predictors of Renewable Energy Pathways in European SMEs: code and results"
+authors:
+  - family-names: Chukwu
+    given-names: Victor Chimaobi
+version: 1.0.0
+date-released: 2026-10-14
+license: MIT

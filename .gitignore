@@ -1,0 +1,7 @@
+# GESIS microdata and anything derived from it at firm level must NOT be shared
+*.sav
+*.dta
+sme_energy_clean.csv
+sme_energy_27countries.csv
+test_predictions.csv
+.ipynb_checkpoints/
