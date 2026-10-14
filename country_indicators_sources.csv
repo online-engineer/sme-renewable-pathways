@@ -1,0 +1,4 @@
+column,source,link
+renewable_share_electricity_2023_pct,"Eurostat nrg_ind_ren, REN_ELC, 2023, percent",https://ec.europa.eu/eurostat/databrowser/view/nrg_ind_ren/default/table
+electricity_price_business_2023S2_eur_kwh,"Eurostat nrg_pc_205, non-household band IB (20-499 MWh), excl. VAT and recoverable taxes, 2023 second half, EUR per kWh. Austria is an Eurostat estimate",https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_205/default/table
+gdp_per_capita_pps_2023_eu27_100,"Eurostat tec00114, GDP per capita in PPS, volume index EU27=100, 2023. Germany, Greece, Spain provisional",https://ec.europa.eu/eurostat/databrowser/view/tec00114/default/table
